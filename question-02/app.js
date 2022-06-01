@@ -62,5 +62,6 @@ function renderUsers(data){
     })
     userDiv.appendChild(ulTodo)
 
+    // Clear input
     document.getElementById("userInput").value = '';
 }
