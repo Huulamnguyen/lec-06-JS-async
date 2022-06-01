@@ -18,6 +18,7 @@ const fetchUsers = async(inputNum) => {
 
         if(Object.keys(data[0]).length === 0) {
             alert("Please enter correct user id. Available user id from 1 to 10")
+            document.getElementById("userInput").value = '';
             return;
         }
         renderUsers(data);
